@@ -1,13 +1,11 @@
 @extends('layouts.app')
 
 @section('titulo')
-  Pagina Nosotros
-  <div class="bg-black"></div>
+  Pagina Principal
 @endsection
 
-
 @section('contenido')
-  Nosotros
+  Principal
 @endsection
 
 

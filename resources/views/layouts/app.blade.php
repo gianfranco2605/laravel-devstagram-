@@ -10,14 +10,16 @@
 
 
     </head>
-    <body>
-        <nav>
-            <a href="/nosotros">Nosotros</a>
-            <a href="/">Tienda</a>
-        </nav>
-        <h1 class="" >@yield('titulo')</h1>
-        <hr>
+    <body class="bg-gray-100">
+        <header class="p-5 border-b bg-white shadow">
+            <div class="container mx-auto flex justify-between">
+                <h1 class="text-3xl font-black">
+                    DevStagram
+                </h1>
+            </div>
+        </header>
 
-        @yield('contenido')
+
+
     </body>
 </html>
