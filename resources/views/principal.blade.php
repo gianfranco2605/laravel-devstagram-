@@ -5,7 +5,7 @@
 @endsection
 
 @section('contenido')
-  Principal
+  Contenido
 @endsection
 
 
