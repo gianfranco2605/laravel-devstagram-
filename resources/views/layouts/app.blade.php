@@ -18,7 +18,7 @@
             </h1>
             <nav class="flex gap-5 items-center">
                 <a class="font-bold uppercase" href="#">Login</a>
-                <a class="font-bold uppercase" href="/crear-cuenta">Crear cuenta</a>
+                <a class="font-bold uppercase" href="{{ route('register') }}">Crear cuenta</a>
             </nav>
         </div>
     </header>
